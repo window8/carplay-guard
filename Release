@@ -1,0 +1,8 @@
+Origin: Window8 Repository
+Label: CarPlay Guard
+Suite: stable
+Version: 1.0
+Codename: carplay-guard
+Architectures: iphoneos-arm64
+Components: main
+Description: CarPlay Guard - Tweak Repository
