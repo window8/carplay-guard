@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚗 CarPlay Guard Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        
+        .repo-url {
+            background: #f5f5f5;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            margin: 20px 0;
+            word-break: break-all;
+            color: #333;
+        }
+        
+        .features {
+            text-align: left;
+            margin: 30px 0;
+            list-style: none;
+        }
+        
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .features li span {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        
+        .install-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 20px 0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .install-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .instructions {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+            margin: 20px 0;
+        }
+        
+        .instructions h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+            color: #666;
+        }
+        
+        .instructions li {
+            margin: 8px 0;
+        }
+        
+        .footer {
+            color: #999;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        
+        code {
+            background: #eee;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 CarPlay Guard</h1>
+        <p class="subtitle">Sileo Repository</p>
+        
+        <p style="color: #666; margin-bottom: 20px;">
+            Tự động quản lý kết nối CarPlay để tiết kiệm pin và quản lý ứng dụng
+        </p>
+        
+        <div class="repo-url">
+            https://raw.githubusercontent.com/window8/carplay-guard/main/
+        </div>
+        
+        <h2 style="font-size: 18px; margin-top: 30px; margin-bottom: 15px; color: #333;">✨ Tính Năng</h2>
+        
+        <ul class="features">
+            <li><span>✅</span> Tự động bật WiFi khi CarPlay kết nối</li>
+            <li><span>✅</span> Tự động bật 4G/dữ liệu di động</li>
+            <li><span>✅</span> Tự động mở YouTube (tùy chọn)</li>
+            <li><span>✅</span> Tự động đóng ứng dụng khi ngắt kết nối</li>
+            <li><span>✅</span> Tự động tắt WiFi, Bluetooth, 4G</li>
+            <li><span>✅</span> Tự động khóa màn hình</li>
+        </ul>
+        
+        <div class="instructions">
+            <h3>📱 Cách Cài Đặt</h3>
+            <ol>
+                <li>Mở <strong>Sileo</strong> trên iPhone</li>
+                <li>Đi tới tab <strong>Sources</strong></li>
+                <li>Tap <strong>+</strong> (thêm)</li>
+                <li>Dán link repo:</li>
+                <li style="font-family: monospace; background: #eee; padding: 5px; border-radius: 5px; margin: 5px 0; word-break: break-all;">
+                    https://raw.githubusercontent.com/window8/carplay-guard/main/
+                </li>
+                <li>Tap <strong>Add Source</strong></li>
+                <li>Tìm <strong>CarPlay Guard</strong> → Tap <strong>Get</strong> → <strong>Install</strong></li>
+            </ol>
+        </div>
+        
+        <a href="sileo://source/https://raw.githubusercontent.com/window8/carplay-guard/main/">
+            <button class="install-button">📱 Add to Sileo</button>
+        </a>
+        
+        <div class="instructions" style="margin-top: 20px;">
+            <h3>⚙️ Yêu Cầu</h3>
+            <ul style="margin-left: 20px;">
+                <li>iOS 15.0 hoặc cao hơn</li>
+                <li>iPhone 6S trở lên</li>
+                <li>Jailbreak với ElleKit</li>
+            </ul>
+        </div>
+        
+        <p class="footer">
+            Made with ❤️ by window8<br>
+            <a href="https://github.com/window8/carplay-guard" style="color: #667eea; text-decoration: none;">GitHub Repository</a>
+        </p>
+    </div>
+</body>
+</html>
