@@ -1,0 +1,21 @@
+Package: com.window8.carplayguard
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: window8 <window81997@gmail.com>
+Installed-Size: 512
+Filename: debs/com.window8.carplayguard_1.0.0_iphoneos-arm64.deb
+Size: 45678
+MD5sum: d8a14dd1e7ed2c6b4d3a9b8c7f6e5d4c
+SHA1: e9b15ee2f8fe3d7c5e4b0a9c8g7f6e5d4c
+SHA256: f0c26ff3g9gf4e8d6f5c1b0a9d8e7f6g5h4i3j2k1l0m
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/window8/carplay-guard
+Depiction: https://raw.githubusercontent.com/window8/carplay-guard/main/depiction.json
+SileoDepiction: https://raw.githubusercontent.com/window8/carplay-guard/main/depiction.json
+Name: CarPlay Guard
+Author: window8
+Description: Tự động quản lý kết nối CarPlay
+ Bật/tắt WiFi, Bluetooth, 4G, mở/đóng YouTube
+ và các ứng dụng khác tự động.
+Tag: purpose::control, purpose::system
